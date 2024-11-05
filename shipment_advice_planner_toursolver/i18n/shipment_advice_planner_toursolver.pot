@@ -109,6 +109,11 @@ msgid "Contact"
 msgstr ""
 
 #. module: shipment_advice_planner_toursolver
+#: model_terms:ir.ui.view,arch_db:shipment_advice_planner_toursolver.shipment_advice_view_form
+msgid "Create TourSolver Task"
+msgstr ""
+
+#. module: shipment_advice_planner_toursolver
 #: model:ir.model.fields,field_description:shipment_advice_planner_toursolver.field_toursolver_backend__create_uid
 #: model:ir.model.fields,field_description:shipment_advice_planner_toursolver.field_toursolver_delivery_window__create_uid
 #: model:ir.model.fields,field_description:shipment_advice_planner_toursolver.field_toursolver_request_props_definition__create_uid
@@ -296,6 +301,11 @@ msgstr ""
 #. module: shipment_advice_planner_toursolver
 #: model:ir.model.fields.selection,name:shipment_advice_planner_toursolver.selection__toursolver_task__state__in_progress
 msgid "In progress"
+msgstr ""
+
+#. module: shipment_advice_planner_toursolver
+#: model:ir.model.fields,field_description:shipment_advice_planner_toursolver.field_shipment_advice__is_create_toursolver_task_allowed
+msgid "Is Create Toursolver Task Allowed"
 msgstr ""
 
 #. module: shipment_advice_planner_toursolver
@@ -791,6 +801,13 @@ msgstr ""
 #. module: shipment_advice_planner_toursolver
 #: model:ir.model.fields,field_description:shipment_advice_planner_toursolver.field_toursolver_task__warehouse_id
 msgid "Warehouse"
+msgstr ""
+
+#. module: shipment_advice_planner_toursolver
+#. odoo-python
+#: code:addons/shipment_advice_planner_toursolver/models/shipment_advice.py:0
+#, python-format
+msgid "You can't recreate the toursolver task."
 msgstr ""
 
 #. module: shipment_advice_planner_toursolver

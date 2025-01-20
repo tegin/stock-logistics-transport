@@ -27,6 +27,7 @@ addon | version | maintainers | summary
 [shipment_advice_planner_toursolver_queue_job](shipment_advice_planner_toursolver_queue_job/) | 16.0.1.0.0 |  | Run TourSolver queries in queue jobs
 [stock_depot](stock_depot/) | 16.0.1.0.0 |  | This module allows users to manage partners stock depots.
 [stock_dock](stock_dock/) | 16.0.1.0.1 |  | Manage the loading docks of your warehouse.
+[stock_location_address](stock_location_address/) | 16.0.1.0.0 |  | Adds an address on locations
 
 [//]: # (end addons)
 
